@@ -43,7 +43,7 @@
 
                                                   var options = {
                                                      title: 'My Daily Activities',
-                                                     'width':'600','height':'400' ,'is3D':'true' 
+                                                     'width':'700','height':'400' ,'is3D':'true' 
                                                    }; 
      /* var wrapper=new google.visualization.ChartWrapper({
 		chartType: 'PieChart',
