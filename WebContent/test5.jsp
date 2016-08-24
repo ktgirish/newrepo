@@ -97,7 +97,7 @@ var sprintinfo={
 			         {  
 			            "issueName":"KT-22",
 			            "issueStatus":"Done",
-			            "issueSummary":"As a user, I'd like a historical story to show in reports"
+			            "issueSummary":"As a user, I'd like a historical story to show in reports for done"
 			         },
 			         {  
 			            "issueName":"KT-23",
