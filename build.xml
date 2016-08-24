@@ -15,7 +15,7 @@
 	</target>
 	
 	<target name="make-dir">
-		<mkdir dir="${build.dir}" />
+		<mkdir dir="${build.dir}" /> 
 		<mkdir dir="${dist.dir}" />
 		<mkdir dir="${src.dir}" />
 	</target>
