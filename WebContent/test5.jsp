@@ -154,7 +154,7 @@ function selectHandler2() {
 
    	 var options = {
                 title: 'Status of Sprints - '+sprint,
-                'width':'600','height':'400' /* ,'is3D':'true' */ 
+                'width':'700','height':'400' /* ,'is3D':'true' */ 
               }; 
    	 chart = new google.visualization.ColumnChart(document.getElementById('test3_chart'));
    	 chart.draw(data, options); 
