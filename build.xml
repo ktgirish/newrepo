@@ -11,11 +11,13 @@
 	<target name="clean">
 		<delete dir="${build.dir}" />
 		<delete dir="${dist.dir}" />
+		<delete dir="${src.dir}" />
 	</target>
 	
 	<target name="make-dir">
 		<mkdir dir="${build.dir}" />
 		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${src.dir}" />
 	</target>
 	
 	<path id="build.classpath">
