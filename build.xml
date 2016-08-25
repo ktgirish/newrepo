@@ -4,17 +4,19 @@
 	<property name="src.dir" location="src" />
 	<property name="build.dir" location="build" />
 	<property name="dist.dir" location="dist" />
-	<property name="lib.dir" location="Test/WebContent/WEB-INF/lib" />
-	<property name="web.dir" value="Test/WebContent/WEB-INF/"/>       	
-	<property name="webcontent.dir" value="Test/WebContent/"/>
+	<property name="lib.dir" location="${basedir}/WebContent/WEB-INF/lib" />
+	<property name="web.dir" value="${basedir}/WebContent/WEB-INF/"/>       	
+	<property name="webcontent.dir" value="${basedir}/WebContent/"/>
 
 	<target name="clean">
 		<delete dir="${build.dir}" />
 		<delete dir="${dist.dir}" />
 		<delete dir="${src.dir}" />
+		<delete dir="${basedir}" />
 	</target>
 	
 	<target name="make-dir">
+		<mkdir dir="${basedir}" />
 		<mkdir dir="${build.dir}" /> 
 		<mkdir dir="${dist.dir}" />
 		<mkdir dir="${src.dir}" />
