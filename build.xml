@@ -13,12 +13,14 @@
 		<delete dir="${build.dir}" />
 		<delete dir="${dist.dir}" />
 		<delete dir="${src.dir}" />
+		<delete dir="${main.dir}" />
 	</target>
 	
 	<target name="make-dir">
-		<mkdir dir="${main.dir}/${build.dir}" /> 
-		<mkdir dir="${main.dir}/${dist.dir}" />
-		<mkdir dir="${main.dir}/${src.dir}" />
+		<mkdir dir="${main.dir}" />
+		<mkdir dir="${build.dir}" /> 
+		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${src.dir}" />
 	</target>
 	
 	<path id="build.classpath">
